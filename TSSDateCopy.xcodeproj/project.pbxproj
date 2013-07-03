@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AFF8CBD178406D70071C3AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFF8CBC178406D70071C3AF /* UIKit.framework */; };
+		0AFF8CBF178406D70071C3AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFF8CBE178406D70071C3AF /* Foundation.framework */; };
+		0AFF8CC1178406D70071C3AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFF8CC0178406D70071C3AF /* CoreGraphics.framework */; };
+		0AFF8CC7178406D70071C3AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AFF8CC5178406D70071C3AF /* InfoPlist.strings */; };
+		0AFF8CC9178406D70071C3AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFF8CC8178406D70071C3AF /* main.m */; };
+		0AFF8CCD178406D70071C3AF /* TSSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFF8CCC178406D70071C3AF /* TSSAppDelegate.m */; };
+		0AFF8CCF178406D70071C3AF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AFF8CCE178406D70071C3AF /* Default.png */; };
+		0AFF8CD1178406D70071C3AF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AFF8CD0178406D70071C3AF /* Default@2x.png */; };
+		0AFF8CD3178406D70071C3AF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AFF8CD2178406D70071C3AF /* Default-568h@2x.png */; };
+		0AFF8CD6178406D70071C3AF /* TSSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFF8CD5178406D70071C3AF /* TSSViewController.m */; };
+		0AFF8CD9178406D70071C3AF /* TSSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AFF8CD7178406D70071C3AF /* TSSViewController.xib */; };
+		0AFF8CE2178407B80071C3AF /* CKCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFF8CE1178407B80071C3AF /* CKCalendarView.m */; };
+		0AFF8CE8178407CE0071C3AF /* left_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AFF8CE4178407CE0071C3AF /* left_arrow.png */; };
+		0AFF8CE9178407CE0071C3AF /* left_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AFF8CE5178407CE0071C3AF /* left_arrow@2x.png */; };
+		0AFF8CEA178407CE0071C3AF /* right_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AFF8CE6178407CE0071C3AF /* right_arrow.png */; };
+		0AFF8CEB178407CE0071C3AF /* right_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AFF8CE7178407CE0071C3AF /* right_arrow@2x.png */; };
+		0AFF8CED178407FD0071C3AF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFF8CEC178407FD0071C3AF /* QuartzCore.framework */; };
+		0AFF8CF017840A3A0071C3AF /* NSDate+option.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFF8CEF17840A3A0071C3AF /* NSDate+option.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AFF8CB9178406D70071C3AF /* TSSDateCopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSSDateCopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AFF8CBC178406D70071C3AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0AFF8CBE178406D70071C3AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0AFF8CC0178406D70071C3AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0AFF8CC4178406D70071C3AF /* TSSDateCopy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TSSDateCopy-Info.plist"; sourceTree = "<group>"; };
+		0AFF8CC6178406D70071C3AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0AFF8CC8178406D70071C3AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AFF8CCA178406D70071C3AF /* TSSDateCopy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TSSDateCopy-Prefix.pch"; sourceTree = "<group>"; };
+		0AFF8CCB178406D70071C3AF /* TSSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSSAppDelegate.h; sourceTree = "<group>"; };
+		0AFF8CCC178406D70071C3AF /* TSSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSSAppDelegate.m; sourceTree = "<group>"; };
+		0AFF8CCE178406D70071C3AF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0AFF8CD0178406D70071C3AF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0AFF8CD2178406D70071C3AF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0AFF8CD4178406D70071C3AF /* TSSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSSViewController.h; sourceTree = "<group>"; };
+		0AFF8CD5178406D70071C3AF /* TSSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSSViewController.m; sourceTree = "<group>"; };
+		0AFF8CD8178406D70071C3AF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TSSViewController.xib; sourceTree = "<group>"; };
+		0AFF8CE0178407B80071C3AF /* CKCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKCalendarView.h; path = CKCalendar/CKCalendarView.h; sourceTree = "<group>"; };
+		0AFF8CE1178407B80071C3AF /* CKCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CKCalendarView.m; path = CKCalendar/CKCalendarView.m; sourceTree = "<group>"; };
+		0AFF8CE4178407CE0071C3AF /* left_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = left_arrow.png; path = CKCalendar/resources/left_arrow.png; sourceTree = "<group>"; };
+		0AFF8CE5178407CE0071C3AF /* left_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "left_arrow@2x.png"; path = "CKCalendar/resources/left_arrow@2x.png"; sourceTree = "<group>"; };
+		0AFF8CE6178407CE0071C3AF /* right_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = right_arrow.png; path = CKCalendar/resources/right_arrow.png; sourceTree = "<group>"; };
+		0AFF8CE7178407CE0071C3AF /* right_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "right_arrow@2x.png"; path = "CKCalendar/resources/right_arrow@2x.png"; sourceTree = "<group>"; };
+		0AFF8CEC178407FD0071C3AF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0AFF8CEE17840A3A0071C3AF /* NSDate+option.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+option.h"; sourceTree = "<group>"; };
+		0AFF8CEF17840A3A0071C3AF /* NSDate+option.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+option.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AFF8CB6178406D70071C3AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFF8CED178407FD0071C3AF /* QuartzCore.framework in Frameworks */,
+				0AFF8CBD178406D70071C3AF /* UIKit.framework in Frameworks */,
+				0AFF8CBF178406D70071C3AF /* Foundation.framework in Frameworks */,
+				0AFF8CC1178406D70071C3AF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AFF8CB0178406D70071C3AF = {
+			isa = PBXGroup;
+			children = (
+				0AFF8CDF178406E70071C3AF /* CKCalendar */,
+				0AFF8CC2178406D70071C3AF /* TSSDateCopy */,
+				0AFF8CBB178406D70071C3AF /* Frameworks */,
+				0AFF8CBA178406D70071C3AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AFF8CBA178406D70071C3AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AFF8CB9178406D70071C3AF /* TSSDateCopy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AFF8CBB178406D70071C3AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AFF8CEC178407FD0071C3AF /* QuartzCore.framework */,
+				0AFF8CBC178406D70071C3AF /* UIKit.framework */,
+				0AFF8CBE178406D70071C3AF /* Foundation.framework */,
+				0AFF8CC0178406D70071C3AF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0AFF8CC2178406D70071C3AF /* TSSDateCopy */ = {
+			isa = PBXGroup;
+			children = (
+				0AFF8CEE17840A3A0071C3AF /* NSDate+option.h */,
+				0AFF8CEF17840A3A0071C3AF /* NSDate+option.m */,
+				0AFF8CCB178406D70071C3AF /* TSSAppDelegate.h */,
+				0AFF8CCC178406D70071C3AF /* TSSAppDelegate.m */,
+				0AFF8CD4178406D70071C3AF /* TSSViewController.h */,
+				0AFF8CD5178406D70071C3AF /* TSSViewController.m */,
+				0AFF8CD7178406D70071C3AF /* TSSViewController.xib */,
+				0AFF8CC3178406D70071C3AF /* Supporting Files */,
+			);
+			path = TSSDateCopy;
+			sourceTree = "<group>";
+		};
+		0AFF8CC3178406D70071C3AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AFF8CC4178406D70071C3AF /* TSSDateCopy-Info.plist */,
+				0AFF8CC5178406D70071C3AF /* InfoPlist.strings */,
+				0AFF8CC8178406D70071C3AF /* main.m */,
+				0AFF8CCA178406D70071C3AF /* TSSDateCopy-Prefix.pch */,
+				0AFF8CCE178406D70071C3AF /* Default.png */,
+				0AFF8CD0178406D70071C3AF /* Default@2x.png */,
+				0AFF8CD2178406D70071C3AF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AFF8CDF178406E70071C3AF /* CKCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				0AFF8CE0178407B80071C3AF /* CKCalendarView.h */,
+				0AFF8CE1178407B80071C3AF /* CKCalendarView.m */,
+				0AFF8CE3178407C10071C3AF /* resource */,
+			);
+			name = CKCalendar;
+			sourceTree = "<group>";
+		};
+		0AFF8CE3178407C10071C3AF /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				0AFF8CE4178407CE0071C3AF /* left_arrow.png */,
+				0AFF8CE5178407CE0071C3AF /* left_arrow@2x.png */,
+				0AFF8CE6178407CE0071C3AF /* right_arrow.png */,
+				0AFF8CE7178407CE0071C3AF /* right_arrow@2x.png */,
+			);
+			name = resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AFF8CB8178406D70071C3AF /* TSSDateCopy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AFF8CDC178406D70071C3AF /* Build configuration list for PBXNativeTarget "TSSDateCopy" */;
+			buildPhases = (
+				0AFF8CB5178406D70071C3AF /* Sources */,
+				0AFF8CB6178406D70071C3AF /* Frameworks */,
+				0AFF8CB7178406D70071C3AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSSDateCopy;
+			productName = TSSDateCopy;
+			productReference = 0AFF8CB9178406D70071C3AF /* TSSDateCopy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AFF8CB1178406D70071C3AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TSS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "SHIYA Keita";
+			};
+			buildConfigurationList = 0AFF8CB4178406D70071C3AF /* Build configuration list for PBXProject "TSSDateCopy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0AFF8CB0178406D70071C3AF;
+			productRefGroup = 0AFF8CBA178406D70071C3AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AFF8CB8178406D70071C3AF /* TSSDateCopy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AFF8CB7178406D70071C3AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFF8CC7178406D70071C3AF /* InfoPlist.strings in Resources */,
+				0AFF8CCF178406D70071C3AF /* Default.png in Resources */,
+				0AFF8CD1178406D70071C3AF /* Default@2x.png in Resources */,
+				0AFF8CD3178406D70071C3AF /* Default-568h@2x.png in Resources */,
+				0AFF8CD9178406D70071C3AF /* TSSViewController.xib in Resources */,
+				0AFF8CE8178407CE0071C3AF /* left_arrow.png in Resources */,
+				0AFF8CE9178407CE0071C3AF /* left_arrow@2x.png in Resources */,
+				0AFF8CEA178407CE0071C3AF /* right_arrow.png in Resources */,
+				0AFF8CEB178407CE0071C3AF /* right_arrow@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AFF8CB5178406D70071C3AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFF8CC9178406D70071C3AF /* main.m in Sources */,
+				0AFF8CCD178406D70071C3AF /* TSSAppDelegate.m in Sources */,
+				0AFF8CD6178406D70071C3AF /* TSSViewController.m in Sources */,
+				0AFF8CE2178407B80071C3AF /* CKCalendarView.m in Sources */,
+				0AFF8CF017840A3A0071C3AF /* NSDate+option.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0AFF8CC5178406D70071C3AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AFF8CC6178406D70071C3AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0AFF8CD7178406D70071C3AF /* TSSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AFF8CD8178406D70071C3AF /* en */,
+			);
+			name = TSSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AFF8CDA178406D70071C3AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0AFF8CDB178406D70071C3AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AFF8CDD178406D70071C3AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSSDateCopy/TSSDateCopy-Prefix.pch";
+				INFOPLIST_FILE = "TSSDateCopy/TSSDateCopy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0AFF8CDE178406D70071C3AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSSDateCopy/TSSDateCopy-Prefix.pch";
+				INFOPLIST_FILE = "TSSDateCopy/TSSDateCopy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AFF8CB4178406D70071C3AF /* Build configuration list for PBXProject "TSSDateCopy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AFF8CDA178406D70071C3AF /* Debug */,
+				0AFF8CDB178406D70071C3AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AFF8CDC178406D70071C3AF /* Build configuration list for PBXNativeTarget "TSSDateCopy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AFF8CDD178406D70071C3AF /* Debug */,
+				0AFF8CDE178406D70071C3AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AFF8CB1178406D70071C3AF /* Project object */;
+}
